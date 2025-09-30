@@ -56,7 +56,7 @@
             <div class="container">
                 <div class="row">
                     <!--Colonna sinistra-->
-                    <div class="col-8">
+                    <div class="col-12 col-lg-8">
                         <div class="d-flex justify-content-between">
                             <h1 class="fs-2 fw-normal">Catalogo Libri</h1>
                             <button type="button" class="btn btn-primary">Aggiungi Libro</button>
@@ -66,7 +66,7 @@
                             <thead>
                                 <tr>
                                     <th scope="col">Titolo</th>
-                                    <th scope="col">Data prestito</th>
+                                    <th class="d-none" scope="col">Data prestito</th>
                                     <th scope="col">Stato</th>
                                     <th scope="col">Azioni</th>
                                 </tr>
@@ -74,10 +74,10 @@
                             <tbody>
                                 <tr>
                                     <td scope="row">I pilastri della terra</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-success">Disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -87,10 +87,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">I promessi sposi</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-success">Disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -100,10 +100,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">Il sognore degli anelli</td>
-                                    <td>18/10/2023</td>
+                                    <td class="d-none">18/10/2023</td>
                                     <td><span class="badge bg-warning">In prestito</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -113,10 +113,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">Harry Potter e la pietra filosofale</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-success">Disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -126,10 +126,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">Il codice Da Vinci</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-danger">Non disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -139,10 +139,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">Shining</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-success">Disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -152,10 +152,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">La divina commedia</td>
-                                    <td>21/09/2023</td>
+                                    <td class="d-none">21/09/2023</td>
                                     <td><span class="badge bg-warning">In prestito</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -165,10 +165,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">Il trono di spade</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-success">Disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -178,10 +178,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">Il mondo di Sofia</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-danger">Non disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -191,10 +191,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">Le cronache di Narnia: il leone, la strega e l'armadio</td>
-                                    <td>25/07/2023</td>
+                                    <td class="d-none">25/07/2023</td>
                                     <td><span class="badge bg-warning">In prestito</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -204,10 +204,10 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">Il piccolo principe</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-success">Disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -217,10 +217,11 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">La storia infinita</td>
-                                    <td>-</td>
+                                    <td class="d-none">-</td>
                                     <td><span class="badge bg-success">Disponibile</span></td>
-                                    <td>
-                                        <button type="button" class="btn btn-outline-secondary">
+                                    <td class="d-flex flex-nowrap">
+
+                                        <button type="button" class="btn btn-outline-secondary me-1">
                                             <i class="fa-solid fa-pencil"></i>
                                         </button>
                                         <button type="button" class="btn btn-outline-secondary">
@@ -233,9 +234,9 @@
                     </div>
 
                     <!--Colonna destra-->
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <!--Card Todo-->
-                        <div class="card">
+                        <div class="card mb-4">
                             <div class="card-header">
                                 <h2 class="fw-normal">Todo</h2>
                             </div>
