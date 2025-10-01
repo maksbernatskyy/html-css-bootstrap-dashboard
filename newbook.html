@@ -55,9 +55,10 @@
         <!--Container-->
         <div class="container">
             <h1>Nuovo Libro</h1>
-            <!--Sezione caratteristiche-->
-            <section>
-                <form>
+            <form>
+                <!--Sezione caratteristiche-->
+                <section class="pb-4 border-bottom">
+
                     <div class="row">
                         <!--Nome Autore-->
                         <div class="mb-3 me-3 col">
@@ -102,8 +103,18 @@
                             <input type="text" class="form-control" id="date" placeholder="Inserisci il codice ISBN#">
                         </div>
                     </div>
-                </form>
-            </section>
+
+                </section>
+
+                <!--Sezione note-->
+                <section class="mt-4">
+                    <!--Note-->
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Note</label>
+                        <textarea class="form-control" id="Notes" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                    </div>
+                </section>
+            </form>
         </div>
     </main>
 
